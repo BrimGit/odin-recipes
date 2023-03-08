@@ -1,0 +1,56 @@
+* {
+    font-family:Poppins, sans-serif;
+    color: white;
+    user-select: none;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;  
+    text-align: center;
+}
+
+a:visited, a:link {
+    text-decoration: none;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    transition: 300ms;
+}
+
+
+li a:hover {
+    opacity: 60%;
+    font-size: 45px;
+    transition: 300ms;
+}
+
+li a {
+    font-weight: bold;
+    font-size: 40px;}
+
+body {
+    background-color: rgb(4, 0, 59);
+}
+
+
+h1 {
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+}
+
+#footer {
+    margin-top: 500px;
+    padding-left: 30px;
+    font-weight: 800;
+}
+
+footer span a {
+    color: rgb(167, 167, 167);
+}
+
+footer span a:hover {
+    opacity: 60%;
+    transition: 300ms;
+    cursor: pointer;
+}

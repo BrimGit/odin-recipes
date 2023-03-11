@@ -80,6 +80,6 @@ footer span a:hover {
     transition: 300ms;
 }
 
-h3 {
+h3, h4 {
     font-weight: 600;
 }
